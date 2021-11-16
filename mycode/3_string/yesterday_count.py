@@ -17,7 +17,7 @@ def file_read(file_name):
 
 read = file_read("yesterday.txt")
 print(read)
-#대문자/소문자로 치환 후 COUNT 해야 정확하게 가능
+#대문자/소문자로 치환 후 COUNT 해야 정확하게 가능...
 n_of_YESTERDAY = read.upper().count("YESTERDAY")
 print(f'Number of a word YESTERDAY : {n_of_YESTERDAY}')
 
